@@ -2,9 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 const avatars = [
-  { src: "/image/ques/avatar.png", alt: "Team member 1" },
-  { src: "/image/ques/avatar-1.png", alt: "Team member 2" },
-  { src: "/image/ques/avatar-2.png", alt: "Team member 3" },
+  { src: "/image/ques/Avatar.png", alt: "Team member 1" },
+  { src: "/image/ques/Avatar-1.png", alt: "Team member 2" },
+  { src: "/image/ques/Avatar-2.png", alt: "Team member 3" },
 ];
 
 export default function StillHaveQuestions() {
