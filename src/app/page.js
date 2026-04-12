@@ -5,6 +5,7 @@ import Pricing from "@/app/components/Pricing";
 import Tools from "@/app/components/Tools";
 import Roadmap from "@/app/components/Roadmap";
 import Meeting from "@/app/components/Meeting";
+import Faq from "@/app/components/Faq";
 export default function Home() {
   return (
     <>
@@ -14,6 +15,7 @@ export default function Home() {
       <Tools />
       <Roadmap />
       <Meeting />
+      <Faq />
     </>
   );
 }
