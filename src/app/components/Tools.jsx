@@ -71,14 +71,14 @@ export default function Tools() {
             {tools.map((tool) => (
               <div
                 key={tool.id}
-                className="bg-white rounded-2xl flex items-center justify-center p-8 sm:p-10 hover:shadow-md hover:-translate-y-0.5 transition-all duration-300 min-h-[120px]"
+                className="bg-white rounded-2xl flex items-center justify-center p-8 sm:p-10 hover:shadow-md hover:-translate-y-0.5 transition-all duration-300 min-h-30"
               >
                 <Image
                   src={tool.logo}
                   alt={tool.name}
                   width={160}
                   height={60}
-                  className="object-contain max-h-[60px] w-auto"
+                  className="object-contain max-h-15 w-auto"
                 />
               </div>
             ))}
