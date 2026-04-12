@@ -8,11 +8,11 @@ import {ArrowRight} from "lucide-react";
 
 const navLinks = [
   { label: "Home", href: "/" },
-  { label: "About", href: "/about" },
-  { label: "Services", href: "/services" },
-  { label: "Pricing", href: "/pricing" },
-  { label: "Blog", href: "/blog" },
-  { label: "Resources", href: "/resources" },
+  { label: "About", href: "#about" },
+  { label: "Services", href: "#services" },
+  { label: "Pricing", href: "#pricing" },
+  { label: "Blog", href: "#blog" },
+  { label: "Resources", href: "#resources" },
 ];
 
 export default function Navbar() {

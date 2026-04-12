@@ -15,12 +15,28 @@ export default function Home() {
     <>
       <Navbar />
       <Hero />
+      <section id="services">
       <Service />
-      <Pricing />
+      </section>
+
+      <section id="pricing">
+      <Pricing /> 
+      </section>
+
       <Tools />
-      <Roadmap />
+      
+      <section id="about">
+        <Roadmap />
+      </section>
+
+      <section id="resources">
       <Meeting />
+      </section>
+
+      <section id="blog">
       <Review />
+      </section>
+
       <Faq />
       <Question />
       <Footer />
