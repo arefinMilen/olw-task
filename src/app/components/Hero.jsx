@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-
+import {ArrowRight} from "lucide-react";
 const styles = `
   @keyframes fadeInUp {
     from {
@@ -176,19 +176,7 @@ export default function Hero() {
               className="inline-flex items-center gap-2 bg-[#E91E63] hover:bg-[#C2185B] text-white font-semibold text-sm px-8 py-4 rounded-xl transition-colors duration-200"
             >
               Schedule A Meeting
-              <svg
-                width="14"
-                height="14"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2.5"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                <line x1="5" y1="12" x2="19" y2="12" />
-                <polyline points="12,5 19,12 12,19" />
-              </svg>
+              <ArrowRight className="w-5 h-5" />
             </Link>
             <Link
               href="/pricing"
