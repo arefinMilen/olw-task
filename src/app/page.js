@@ -6,6 +6,7 @@ import Tools from "@/app/components/Tools";
 import Roadmap from "@/app/components/Roadmap";
 import Meeting from "@/app/components/Meeting";
 import Faq from "@/app/components/Faq";
+import Question from "@/app/components/Question";
 export default function Home() {
   return (
     <>
@@ -16,6 +17,7 @@ export default function Home() {
       <Roadmap />
       <Meeting />
       <Faq />
+      <Question />
     </>
   );
 }
